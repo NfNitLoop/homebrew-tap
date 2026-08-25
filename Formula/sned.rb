@@ -9,6 +9,13 @@ class Sned < Formula
   sha256 "8b674a0bd81baa8bf9f50700373e2667550265eb4991eafc5a6b97461972f39d"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/NfNitLoop/homebrew-tap/releases/download/sned-0.3.1"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "16d12447585157225f978a1e5edec479c1bbb483458f934c532ba115ad03365d"
+    sha256 cellar: :any,                 x86_64_linux: "0b29ee179424fd8145699edfc722dbdc33fbd2dbdca41e66e6d2c75ad2af3ebc"
+  end
+
   depends_on "rust" => :build
 
   def install
