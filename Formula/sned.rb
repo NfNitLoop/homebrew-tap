@@ -19,3 +19,5 @@ class Sned < Formula
     assert_equal "sned 0.3.1", shell_output("#{bin}/sned --version").strip
   end
 end
+
+# TODO: Remove me. (Build bottles, please!)
