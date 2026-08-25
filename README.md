@@ -16,3 +16,7 @@ brew "<formula>"
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+## Author Notes
+
+TBH I'd rather this be on codeberg, but `brew tap` is easier to use for GitHub repos, so here we are. 😑
